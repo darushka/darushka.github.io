@@ -1,0 +1,85 @@
+/* -------begin customization-------- */
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #ddd !default;
+$gray-300: #ccc !default;
+$gray-400: #bbb !default;
+$gray-500: #adb5bd !default;
+$gray-600: #777 !default;
+$gray-700: #444 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #9B479F !default;
+$pink:    #e83e8c !default;
+$red:     #D9230F !default;
+$orange:  #e9740d !default;
+$yellow:  #ffc107 !default;
+$green:   #469408 !default;
+$teal:    #20c997 !default;
+$cyan:    #029ACF !default;
+
+$primary:       $orange !default;
+$secondary:     $white !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $purple !default;
+$danger:        $red !default;
+$light:         $white !default;
+$dark:          $gray-800 !default;
+
+
+
+$web-font-path: "https://fonts.googleapis.com/css?family=Jost:300,400,500,600&display=swap" !default;
+@import url($web-font-path);
+
+// Body
+
+$body-color: #000 !default;
+
+// Fonts
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+
+$font-family-sans-serif: "Jost", Arial, sans-serif !default;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 600 !default;
+
+// Links
+
+$link-color: $orange !default;
+$link-hover-color: darken($link-color, 20%) !default;
+
+// Headers
+
+$h1-font-size: $font-size-base * 1.5 !default;
+$h2-font-size: $font-size-base * 1.25 !default;
+$h3-font-size: $font-size-base * 1.20 !default;
+$h4-font-size: $font-size-base * 1.15 !default;
+$h5-font-size: $font-size-base * 1.10 !default;
+$h6-font-size: $font-size-base !default;
+
+// Borders
+
+$border-width: 1px !default;
+
+$border-radius: .25rem  !default;
+$border-radius-lg: .3rem  !default;
+$border-radius-sm: .2rem  !default;
+
+// Cards
+
+$card-border-color: rgba($black, .125) !default;
+
+// Navs
+
+$nav-tabs-link-active-color: $orange !default;
+
+/* -------end customization-------- */
+
+@import "node_modules/bootstrap/scss/bootstrap";
